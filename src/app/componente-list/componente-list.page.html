@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+    </ion-buttons>
+  <ion-title>List</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+<h3>Lista com texto</h3>
+  <ion-list>
+    <ion-item>
+      <ion-label>Maçã</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Banana</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Uvas</ion-label>
+    </ion-item>
+  </ion-list>
+
+<h3>Lista Form</h3>
+  <ion-list>
+    <ion-item>
+      <ion-label>Checkbox</ion-label>
+      <ion-checkbox slot="start"></ion-checkbox>
+      <ion-checkbox slot="start"></ion-checkbox>
+    </ion-item>
+
+<ion-radio-group>
+  <ion-item>
+    <ion-label>Radio</ion-label>
+    <ion-radio slot="start" value="Masculino"></ion-radio>
+  </ion-item>
+  <ion-item>
+      <ion-label>Radio</ion-label>
+      <ion-radio slot="start" value="Feminino"></ion-radio>
+  </ion-item>
+</ion-radio-group>
+    
+    <ion-item>
+      <ion-label>Toggle</ion-label>
+      <ion-toggle></ion-toggle>
+    </ion-item>
+  </ion-list>
+
+
+<h3>Lista com Avatar</h3>
+<ion-list>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img src="assets/avatar.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Caio Cesar</h2>
+      <h3>Qualidade de Software</h3>
+    </ion-label>
+  </ion-item>
+  <ion-item>
+    <ion-avatar slot="end">
+      <img src="assets/pp.jpg">
+    </ion-avatar>
+    <ion-label>
+      <h2>Melissa Suporte</h2>
+      <h3>Analista de Suporte</h3>
+    </ion-label>
+  </ion-item>
+</ion-list>
+
+<h3>Lista com Sliding</h3>
+<ion-list>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Deslize para a Esquerda</ion-label>
+    </ion-item>
+    <ion-item-options side="end">
+      <ion-item-option>Surpresa</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+  <ion-item-sliding>
+    <ion-item>
+      <ion-label>Deslize para a Direita</ion-label>
+    </ion-item>
+    <ion-item-options side="start">
+      <ion-item-option>Surpresa</ion-item-option>
+    </ion-item-options>
+  </ion-item-sliding>
+</ion-list>
+
+</ion-content>

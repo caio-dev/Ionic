@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button defaultHref="home" slot="start"></ion-back-button>
+    <ion-title>API Externa</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+<h5>Por enquanto o cep está via código</h5>
+<!-- <ion-button expand="full" (click)="get()">GET - Receber dados</ion-button>
+  <ion-button expand="full" (click)="post()">POST - Enviar dados</ion-button>
+  <ion-button expand="full" (click)="put()">PUT - Atualiza dados</ion-button>
+  <ion-button expand="full" (click)="delete()">DELETE - Excluir dados</ion-button>
+-->
+
+<!--<ion-input type="number" placeholder="Digite um CEP:" name="cep"><ion-label>CEP:</ion-label></ion-input>
+-->
+<ion-button expand="full" (click)="cep()">Consultar CEP</ion-button>
+
+
+<h4>Resposta do servidor</h4>
+{{result}}
+
+</ion-content>

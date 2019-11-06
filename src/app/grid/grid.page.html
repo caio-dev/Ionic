@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-back-button slot="start" text="Voltar" defaultHref="botoes"></ion-back-button>
+    <ion-title>Grid</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h3>O grid possui 12 colunas por padrão</h3>
+
+
+  <ion-grid text-center>
+    <ion-row>
+      <ion-col>Coluna 1</ion-col>
+      <ion-col>Coluna 2</ion-col>
+      <ion-col>Coluna 3</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <h3>Variando tamanho da coluna</h3>
+  <ion-grid text-center>
+    <ion-row>
+      <ion-col>Coluna 1</ion-col>
+      <ion-col>Coluna 2</ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>Coluna 1</ion-col>
+      <ion-col>Coluna 2</ion-col>
+      <ion-col>Coluna 3</ion-col>
+      <ion-col>Coluna 4</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <h3>Definindo tamanho da coluna</h3>
+  <ion-grid text-center>
+      <ion-row>
+        <ion-col size="1">1</ion-col>
+        <ion-col size="2">2</ion-col>
+        <ion-col size="3">3</ion-col>
+        <ion-col size="4">4</ion-col>
+      </ion-row>
+
+  <h3>Espaçamento entre colunas</h3>
+  
+      <ion-row>
+        <ion-col size="2">1</ion-col>
+        <ion-col size="2" offset="2">2</ion-col>
+        <ion-col size="2" offset="2">3</ion-col>
+      </ion-row>
+    </ion-grid>
+
+</ion-content>

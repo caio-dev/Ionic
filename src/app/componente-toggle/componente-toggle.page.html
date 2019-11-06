@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar" defaultHref="home" ></ion-back-button>
+    </ion-buttons>
+  <ion-title>Toggle</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <h2>Acompanhamentos:</h2>
+
+  <ion-list>
+  <ion-item>
+    <ion-label>Salada:</ion-label>
+    <ion-toggle></ion-toggle>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-label>Molho:</ion-label>
+    <ion-toggle color="dark"></ion-toggle>
+  </ion-item>
+
+
+  <ion-item>
+    <ion-label>Batata Extra</ion-label>
+    <ion-toggle checked="true"></ion-toggle>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Milho/Ervilha</ion-label>
+    <ion-toggle disabled></ion-toggle>
+  </ion-item>
+</ion-list>
+
+
+<h2>Propriedades:</h2>
+<ion-list>
+  <ion-item>
+    <ion-label>Lanterna:</ion-label>
+    <ion-toggle [(ngModel)]="marcado"></ion-toggle>
+  </ion-item>
+  <ion-item>
+    <ion-label>Conexão USB</ion-label>
+    <ion-toggle [(ngModel)]="marcado"></ion-toggle>
+  </ion-item>
+</ion-list>
+
+</ion-content>

@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+      </ion-buttons>
+    <ion-title>Date Time</ion-title>
+  </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+
+
+  <ion-item>
+    <ion-label>Padrão</ion-label>
+    <ion-datetime></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>DisplayFormat</ion-label>
+      <ion-datetime display-format="DD/MM/YYYY"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Picker</ion-label>
+      <ion-datetime display-format="DD/MM/YYYY" picker-format="MMMM YYYY"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+      <ion-label>Limite</ion-label>
+      <ion-datetime display-format="DD/MM/YYYY" min="2001" max="2019-12-31"></ion-datetime>
+  </ion-item>
+
+</ion-content>

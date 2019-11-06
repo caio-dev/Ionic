@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+    </ion-buttons>
+  <ion-title>Searchbar</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+<!-- <ion-searchbar [(ngModel)]="nome" (ionInput)="filtrarItens()"></ion-searchbar>
+  <ion-list>
+    <ion-item *ngFor="list pessoa of pessoasFiltradas">
+      {{pessoa.nome}}
+    </ion-item>
+  </ion-list>
+--> 
+
+<ion-searchbar></ion-searchbar>
+<ion-searchbar color="danger"></ion-searchbar>
+<ion-searchbar type="number"></ion-searchbar>
+<ion-searchbar value="Pesquise:"></ion-searchbar>
+<ion-searchbar placeholder="Busca:"></ion-searchbar>
+
+
+</ion-content>

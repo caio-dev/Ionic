@@ -1,0 +1,23 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Voltar" defaultHref="componentes"></ion-back-button>
+      </ion-buttons>
+    <ion-title>Refresh</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-refresher slot="fixed" (ionRefresh)="atualizarMensagem($event)">
+    <ion-refresher-content      
+      pullingIcon="arrow-dropdown"
+      pullingText="Deslize para atualizar"
+      refreshingSpinner="circles"
+      refreshingText="Processando...">
+    </ion-refresher-content>
+  </ion-refresher>
+  
+  {{message}}
+  
+</ion-content>

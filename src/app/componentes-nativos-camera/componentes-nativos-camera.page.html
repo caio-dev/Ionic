@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Voltar" defaultHref="componentes-nativos" ></ion-back-button>
+      </ion-buttons>
+    <ion-title>Camera</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button expand="full" (click)="tirarFoto()">Capturar</ion-button>
+
+  <ion-card [hidden]="!foto">
+    <img src="{{foto}}">
+  </ion-card>
+</ion-content>

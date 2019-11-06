@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+      </ion-buttons>
+    <ion-title>Toast</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+ <ion-button expand="block" (click)="showToast()">Exibir Toast Padrão</ion-button>
+ <ion-button expand="block" (click)="showToastPosition('top')" disabled="true">Exibir Toast Top</ion-button>
+ <ion-button expand="block" (click)="showToastPosition('middle')" disabled="true">Exibir Toast Middle</ion-button>
+ <ion-button expand="block" (click)="showToastPosition('bottom')" disabled="true">Exibir Toast Bottom</ion-button>
+ <ion-button expand="block" (click)="showToastButton('top')">Exibir Toast Button</ion-button>
+
+</ion-content>

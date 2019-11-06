@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+    </ion-buttons>
+  <ion-title>Range</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+  <ion-item>
+    <ion-label>Range padrão</ion-label>
+    <ion-range></ion-range>
+  </ion-item>
+  <ion-item>
+    <ion-label>Range Disabled</ion-label>
+    <ion-range disabled="true"></ion-range>
+    </ion-item>
+  <ion-item>
+    <ion-label>Range com Numeração</ion-label>
+    <ion-range pin="true" color="danger"></ion-range>
+  </ion-item>
+  <ion-item text-center>
+    <ion-label slot="start">Range Min: 50</ion-label>
+    <ion-label slot="end">Range Max: 100</ion-label>
+    <ion-range min="50" max="100" pin="true" color="dark"></ion-range>
+  </ion-item>
+  <ion-item text-center>
+    <ion-icon slot="start" name="sunny" size="small"></ion-icon>
+    <ion-icon slot="end" name="sunny" size="small"></ion-icon>
+    <ion-range pin="true" color="dark"></ion-range>
+  </ion-item>
+  <ion-item>
+      <ion-label>Range com step</ion-label>
+      <ion-range pin="true" min="0" step="100" max="1000"></ion-range>
+  </ion-item>
+  <ion-item>
+     <ion-label>Range com step (snaps)</ion-label>
+      <ion-range pin="true" min="0" step="100" max="1000" snaps="true"></ion-range>
+  </ion-item>
+  <ion-item>
+      <ion-label>Range com step (dualKnobs)</ion-label>
+      <ion-range pin="true" min="0" step="100" max="1000" snaps="true" dualKnobs="true"></ion-range>
+   </ion-item>
+</ion-list>
+
+</ion-content>

@@ -1,0 +1,65 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+      </ion-buttons>
+    <ion-title>Radio</ion-title>
+  </ion-toolbar>
+  </ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-radio-group>
+<h3>Frutas</h3>
+
+    <ion-item>
+      <ion-label>Abacate</ion-label>
+      <ion-radio value="abacate"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Banana</ion-label>
+      <ion-radio value="banana"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Abacaxi</ion-label>
+        <ion-radio value="abacaxi" color="danger"></ion-radio>
+    </ion-item>
+
+    </ion-radio-group>
+  </ion-list>
+
+<h3>Forma de Pagamento</h3>
+<ion-list>
+  <ion-radio-group>
+
+    <ion-item>
+      <ion-label>Cartão de Crédito</ion-label>
+      <ion-radio value="credito"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Cartão de Débito</ion-label>
+      <ion-radio value="debito"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Boleto</ion-label>
+      <ion-radio value="boleto"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Já Pago</ion-label>
+        <ion-radio value="pago" disabled="true"></ion-radio>
+    </ion-item>
+
+  </ion-radio-group>
+</ion-list>
+
+
+
+
+
+</ion-content>

@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar" defaultHref="home" ></ion-back-button>
+    </ion-buttons>
+    <ion-title>Botões</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-button expand="full" (click)="AbrirPagina('headerfooter')">Header e footer</ion-button>
+    <ion-button expand="full" (click)="AbrirPagina('tabs')">Tabs</ion-button>
+    <ion-button expand="full" (click)="AbrirPagina('menu')">Menu</ion-button>
+    <ion-button expand="full" (click)="AbrirPagina('splitpane')">Split Pane</ion-button>
+    <ion-button expand="full" (click)="AbrirPagina('grid')">Grid</ion-button>
+    <ion-button expand="full" (click)="AbrirPagina('css-utilities')">Css Utilities</ion-button>
+</ion-content>

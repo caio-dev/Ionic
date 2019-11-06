@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+    </ion-buttons>
+  <ion-title>Loading</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-button (click)="exibeLoading()">Loading Padrão</ion-button>
+  <ion-button (click)="exibeLoadingLines()">Loading Lines</ion-button>
+  <ion-button (click)="exibeLoadingBubbles()">Loading Bubbles</ion-button>
+
+  <h2>Existem varios tipos de load, basta alterar o spinner no TS</h2>
+</ion-content>
+
+<!--
+<ion-footer>
+  <ion-toolbar>
+    <ion-fab vertical="top" horizontal="end">
+      <ion-fab-button size="small">
+        <ion-icon name="send"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </ion-toolbar>
+</ion-footer>
+-->

@@ -1,0 +1,61 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Voltar" defaultHref="home" ></ion-back-button>
+      </ion-buttons>
+    <ion-title>Select</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+<ion-list>
+  <ion-list-header> Select Simples </ion-list-header>
+  <ion-item>
+    <ion-label>Sexo</ion-label>
+    <ion-select placeholder="Selecione">
+      <ion-select-option value="M">Masculino</ion-select-option>
+      <ion-select-option value="F">Feminino</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+      <ion-label>Cor</ion-label>
+      <ion-select placeholder="Selecione" okText="Selecionar" cancelText="Cancelar">
+        <ion-select-option value="Preto">Preto</ion-select-option>
+        <ion-select-option value="Azul">Azul</ion-select-option>
+        <ion-select-option value="Vermelho">Vermelho</ion-select-option>
+      </ion-select>
+    </ion-item>
+</ion-list>
+
+
+<ion-list>
+  <ion-list-header>Select Multiplo</ion-list-header>
+  <ion-item>
+    <ion-label>Frutas</ion-label>
+    <ion-select multiple="true" placeHolder="Selecione" okText="Ok" cancelText="Cancelar">
+      <ion-select-option value="banana">Banana</ion-select-option>
+      <ion-select-option value="morango">Morango</ion-select-option>
+      <ion-select-option value="abacaxi">Abacaxi</ion-select-option>
+      <ion-select-option value="abacate">Abacate</ion-select-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+
+<ion-list>
+    <ion-list-header>Select Multiplo - Já marcado</ion-list-header>
+    <ion-item>
+      <ion-label>Animais</ion-label>
+      <ion-select multiple="true" placeHolder="Selecione" okText="Ok" cancelText="Cancelar">
+        <ion-select-option value="gato" selected>Gato</ion-select-option>
+        <ion-select-option value="cachorro">Cachorro</ion-select-option>
+        <ion-select-option value="passaro" selected>Passaro</ion-select-option>
+        <ion-select-option value="peixe">Peixe</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+
+
+
+</ion-content>

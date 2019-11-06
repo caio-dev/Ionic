@@ -1,0 +1,66 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-back-button text="Voltar" defaultHref="componentes" ></ion-back-button>
+      </ion-buttons>
+    <ion-title>Input</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <!-- Input padrão -->
+  <ion-input></ion-input>
+
+  <!-- Input com valor -->
+  <ion-input>Valor preenchido</ion-input>
+
+  <!-- Input com legenda dentro do campo -->
+  <ion-input placeholder="Digite aqui um valor:"></ion-input>
+
+  <!-- Input com opção de deletar o texto -->
+  <ion-input clearInput placeholder="ClearInput"></ion-input>
+
+  <!-- Input com maxlength -->
+  <ion-input type="text" maxlength="5" placeholder="Limite de caractere '5':"></ion-input>
+
+  <!-- Input com valor numerico -->
+  <ion-input type="number" placeholder="Numérico:"></ion-input>
+
+  <!-- Input com campo senha -->
+  <ion-input type="password" placeholder="Senha:"></ion-input>
+
+  <!-- Input com campo email -->
+  <ion-input type="email" placeholder="Email:"></ion-input>
+
+  <!-- Input com campo telefone -->
+  <ion-input type="tel" placeholder="Telefone:"></ion-input>
+
+  <!-- Input com campo url -->
+  <ion-input type="url" placeholder="URL:"></ion-input>
+
+  <!-- Input com campo Pesquisa -->
+  <ion-input type="search" placeholder="Pesquisa:"></ion-input>
+
+
+  <ion-item>
+    <ion-label>Padrão:</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Floating:</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="fixed">Fixed:</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="staked">Staked:</ion-label>
+      <ion-input type="text"></ion-input>
+  </ion-item>
+
+</ion-content>
